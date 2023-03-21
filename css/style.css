@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'EF_watermelonSalad';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_watermelonSalad.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LOTTERIACHAB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'EF_watermelonSalad';
+    font-size: 2rem;
+    margin: 10px 0;
+}
+#clock {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    margin: 30px 0;
+    text-shadow: 0 0 8px black;
+}
+#total, #login-form, #todo-form {
+    text-align: center;
+}
+#todolist {
+    margin: auto;
+    max-width: 300px;
+    margin-top: 20px;
+    padding: 0 30px;
+}
+#todolist li {
+    font-family: 'LOTTERIACHAB';
+    clear: both;
+    margin: 5px 0;
+    border: underline;
+    border-bottom: 1px white solid;
+}
+#todolist li button {
+    float: right;
+    border-radius: 16px;
+    border: none;
+}
+input[type="text"] {
+    font-family: 'EF_watermelonSalad';
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px white solid;
+    color: white;
+}
+input[type="text"]:focus {
+    outline: none;
+}
+input[type="text"]::placeholder {
+    color: rgba(255,255,255,0.7);
+}
+input[type="text"]+input[type="submit"] {
+    background-color: rgba(128, 128, 128, 0.276);
+    border: none;
+    border-radius: 16px;
+    padding: 5px 8px;
+}
+.hidden {
+    display: none;
+}
